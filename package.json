@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --port 3003",
     "build": "next build",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test:seo": "node --test scripts/check-seo.test.mjs"
   },
   "dependencies": {
     "animejs": "4.5.0",

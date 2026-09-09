@@ -3,8 +3,10 @@ import { ArrowDownRight, Check } from "lucide-react";
 import { CtaSection } from "../../components/cta-section";
 import { PageHero } from "../../components/page-hero";
 import { approach } from "../../lib/site-data";
+import { siteUrl } from "../../lib/site-config";
 
 export const metadata = {
+  alternates: { canonical: siteUrl("/about/") },
   title: "About",
   description:
     "Corevolvix is a business and technology consulting firm connecting strategy to practical execution.",

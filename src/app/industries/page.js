@@ -3,8 +3,10 @@ import { ArrowUpRight } from "lucide-react";
 import { CtaSection } from "../../components/cta-section";
 import { PageHero } from "../../components/page-hero";
 import { industries } from "../../lib/site-data";
+import { siteUrl } from "../../lib/site-config";
 
 export const metadata = {
+  alternates: { canonical: siteUrl("/industries/") },
   title: "Industries",
   description:
     "Corevolvix supports organisations across manufacturing, retail, healthcare, financial services, the public sector and more.",

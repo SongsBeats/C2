@@ -3,6 +3,11 @@ import Link from "next/link";
 import { ArrowUpRight, ArrowRight, Check, Workflow, Boxes, Sparkles, Network } from "lucide-react";
 import { services, industries, approach } from "../lib/site-data";
 import { CtaSection } from "../components/cta-section";
+import { siteUrl } from "../lib/site-config";
+
+export const metadata = {
+  alternates: { canonical: siteUrl("/") },
+};
 
 function TransformationVisual() {
   return (

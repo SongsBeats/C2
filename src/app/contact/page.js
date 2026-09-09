@@ -1,8 +1,10 @@
 import { ArrowUpRight, Mail, MessageSquareText } from "lucide-react";
 import { ContactForm } from "../../components/contact-form";
 import { PageHero } from "../../components/page-hero";
+import { siteUrl } from "../../lib/site-config";
 
 export const metadata = {
+  alternates: { canonical: siteUrl("/contact/") },
   title: "Contact",
   description:
     "Talk to Corevolvix about your process, technology, AI, architecture or GCC priority.",

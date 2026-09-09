@@ -3,8 +3,10 @@ import { ArrowDown, ArrowRight, Check } from "lucide-react";
 import { CtaSection } from "../../components/cta-section";
 import { PageHero } from "../../components/page-hero";
 import { services } from "../../lib/site-data";
+import { siteUrl } from "../../lib/site-config";
 
 export const metadata = {
+  alternates: { canonical: siteUrl("/services/") },
   title: "Services",
   description:
     "Connected consulting across business process, technology, AI, enterprise architecture and GCC advisory.",
