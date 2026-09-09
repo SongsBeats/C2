@@ -42,7 +42,7 @@ export default function AboutPage() {
           </div>
           <div className="about-copy" data-reveal>
             <p className="eyebrow">What we believe</p>
-            <h2>Transformation becomes durable when strategy is connected to how work is done.</h2>
+            <h2>Transformation becomes durable when strategy is <span className="heading-accent">connected to how work is done.</span></h2>
             <p>
               It also depends on how technology is designed and how people adopt change.
               That is why we bring these disciplines together in practical engagements
@@ -56,7 +56,7 @@ export default function AboutPage() {
         <div className="container commitment-panel" data-reveal>
           <div>
             <p className="eyebrow">Our commitment</p>
-            <h2>Clear thinking. Practical progress.</h2>
+            <h2>Clear thinking. <span className="heading-accent">Practical progress.</span></h2>
           </div>
           <p>
             We work with client teams to understand the challenge, define a realistic target
@@ -72,7 +72,7 @@ export default function AboutPage() {
           <div className="section-heading" data-reveal>
             <div>
               <p className="eyebrow">Our approach</p>
-              <h2>From complexity to capability.</h2>
+              <h2>From complexity to <span className="heading-accent">capability.</span></h2>
             </div>
             <ArrowDownRight size={48} strokeWidth={1.25} aria-hidden="true" />
           </div>
@@ -95,7 +95,7 @@ export default function AboutPage() {
           <div className="section-heading" data-reveal>
             <div>
               <p className="eyebrow">What guides us</p>
-              <h2>How we show up in the work.</h2>
+              <h2>How we <span className="heading-accent">show up in the work.</span></h2>
             </div>
           </div>
           <div className="principles-grid">

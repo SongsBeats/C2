@@ -67,7 +67,7 @@ export default function HomePage() {
 
       <section className="section why-section">
         <div className="container">
-          <div className="section-heading" data-reveal><div><p className="eyebrow">Why Corevolvix</p><h2>Built for the work that follows the strategy.</h2></div><p>Lasting transformation needs more than a recommendation. It needs a clear understanding of the business problem, a practical plan and the capability to carry the work forward.</p></div>
+          <div className="section-heading" data-reveal><div><p className="eyebrow">Why Corevolvix</p><h2>Built for the work that <span className="heading-accent">follows the strategy.</span></h2></div><p>Lasting transformation needs more than a recommendation. It needs a clear understanding of the business problem, a practical plan and the capability to carry the work forward.</p></div>
           <div className="value-grid">{[
             ["Business-led", "We begin with the operational, customer and commercial outcomes your organisation needs to achieve."],
             ["Connected by design", "We consider process, technology, AI, architecture and people together, so one decision does not create a problem elsewhere."],
@@ -77,10 +77,10 @@ export default function HomePage() {
       </section>
 
       <section className="section approach-section">
-        <div className="container"><div className="section-heading" data-reveal><div><p className="eyebrow">Our approach</p><h2>A clear route from complexity to capability.</h2></div><p>Our approach creates alignment before action and keeps attention on outcomes throughout delivery.</p></div><div className="process-grid">{approach.map((step) => <article className="process-card" key={step.title} data-reveal><span className="icon-tile"><step.icon size={25} strokeWidth={1.6} /></span><h3>{step.title}</h3><p>{step.text}</p></article>)}</div></div>
+        <div className="container"><div className="section-heading" data-reveal><div><p className="eyebrow">Our approach</p><h2>A clear route from <span className="heading-accent">complexity to capability.</span></h2></div><p>Our approach creates alignment before action and keeps attention on outcomes throughout delivery.</p></div><div className="process-grid">{approach.map((step) => <article className="process-card" key={step.title} data-reveal><span className="icon-tile"><step.icon size={25} strokeWidth={1.6} /></span><h3>{step.title}</h3><p>{step.text}</p></article>)}</div></div>
       </section>
 
-      <section className="section industries-preview"><div className="container industries-layout"><div data-reveal><p className="eyebrow">Industries we serve</p><h2>Deep enough to understand the context. Broad enough to connect the change.</h2><p>We adapt our approach to sector realities while applying the same discipline: clarify the problem, design the right foundations and create a practical path forward.</p><Link className="button button-secondary" href="/industries/">Explore industries <ArrowUpRight size={18} /></Link></div><div className="industry-links" data-reveal>{industries.slice(0, 6).map((industry) => <Link href="/industries/" key={industry.title}><industry.icon size={24} strokeWidth={1.5} /><span>{industry.title}</span><ArrowUpRight size={18} aria-hidden="true" /></Link>)}</div></div></section>
+      <section className="section industries-preview"><div className="container industries-layout"><div data-reveal><p className="eyebrow">Industries we serve</p><h2>Deep enough to understand the context. Broad enough to <span className="heading-accent">connect the change.</span></h2><p>We adapt our approach to sector realities while applying the same discipline: clarify the problem, design the right foundations and create a practical path forward.</p><Link className="button button-secondary" href="/industries/">Explore industries <ArrowUpRight size={18} /></Link></div><div className="industry-links" data-reveal>{industries.slice(0, 6).map((industry) => <Link href="/industries/" key={industry.title}><industry.icon size={24} strokeWidth={1.5} /><span>{industry.title}</span><ArrowUpRight size={18} aria-hidden="true" /></Link>)}</div></div></section>
       <CtaSection />
     </>
   );

@@ -10,7 +10,9 @@ Clear editorial hierarchy, generous but controlled spacing, quiet surfaces and c
 | --- | --- | --- |
 | `--blue` | `#1846f5` | Primary actions, highlighted words, icons |
 | `--blue-dark` | `#1037ce` | Primary hover state |
-| `--ink` | `#102339` | Headings and dark section backgrounds |
+| `--ink` | `#102339` | Body text and dark section backgrounds |
+| `--heading-color` | `#163568` | Navy headlines on light surfaces |
+| `--heading-accent` | `#1846f5` | Key heading phrases, service and card titles |
 | `--muted` | `#56677b` | Body copy and supporting text |
 | `--line` | `#dce3eb` | Dividers and borders |
 | `--surface` | `#f4f7fc` | Alternate sections and panels |
@@ -18,7 +20,9 @@ Clear editorial hierarchy, generous but controlled spacing, quiet surfaces and c
 
 ## Typography and spacing
 
-- System typography: Segoe UI with Arial and sans-serif fallbacks. No external font requests.
+- Inter variable font throughout, loaded with `next/font/google` and self-hosted in the build. Browser font requests stay on the website's own domain; Arial and sans-serif are fallbacks.
+- Headings pair deep navy with cobalt emphasis. Card, service and process titles use cobalt. Dark sections use white headlines with light-blue accents (`#a8c0ff`); cobalt CTA panels keep white headlines for contrast.
+- Use `.heading-accent` on a meaningful phrase without changing the heading text. Avoid whole-heading gradients or arbitrary accent colours.
 - Desktop homepage headline: up to 72px; page headings: up to 62px; section headings: 32–46px.
 - Main content maximum width: 1240px. Mobile content gutters: 20px.
 - Desktop header height: 86px; tablet/mobile: 76px.

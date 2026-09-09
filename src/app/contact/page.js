@@ -25,7 +25,7 @@ export default function ContactPage() {
         <div className="container contact-grid">
           <div className="contact-copy" data-reveal>
             <p className="eyebrow">Let’s connect</p>
-            <h2>A useful conversation starts with context.</h2>
+            <h2>A useful conversation <span className="heading-accent">starts with context.</span></h2>
             <p>
               Whether you are improving an operating process, planning a technology
               initiative, evaluating AI opportunities, addressing architecture complexity
