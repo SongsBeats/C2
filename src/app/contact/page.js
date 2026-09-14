@@ -36,8 +36,8 @@ export default function ContactPage() {
               <span className="icon-tile" aria-hidden="true"><Mail size={22} /></span>
               <div>
                 <span>Email us directly</span>
-                <a href="mailto:hello@corevolvix.com">
-                  hello@corevolvix.com <ArrowUpRight size={17} aria-hidden="true" />
+                <a href="mailto:info@corevolvix.com">
+                  info@corevolvix.com <ArrowUpRight size={17} aria-hidden="true" />
                 </a>
               </div>
             </div>

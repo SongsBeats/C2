@@ -43,7 +43,7 @@ export function SiteHeader() {
         <div className="container">
           <Link href="/" onClick={() => setOpen(false)}>Home <ArrowUpRight size={18} /></Link>
           {links.map(([label, href]) => <Link key={href} href={href} aria-current={active(href) ? "page" : undefined} onClick={() => setOpen(false)}>{label}<ArrowUpRight size={18} /></Link>)}
-          <a href="mailto:hello@corevolvix.com">hello@corevolvix.com</a>
+          <a href="mailto:info@corevolvix.com">info@corevolvix.com</a>
         </div>
       </nav>
     </header>

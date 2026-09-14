@@ -10,7 +10,7 @@ export function SiteFooter() {
         <div className="footer-brand">
           <Link href="/" aria-label="Corevolvix home"><Image src="/corevolvix-logo.jpeg" alt="Corevolvix" width={1600} height={533} /></Link>
           <p>Business transformation through process, technology, AI and architecture.</p>
-          <a className="text-link" href="mailto:hello@corevolvix.com">hello@corevolvix.com <ArrowUpRight size={17} /></a>
+          <a className="text-link" href="mailto:info@corevolvix.com">info@corevolvix.com <ArrowUpRight size={17} /></a>
         </div>
         <div className="footer-links"><h2>Explore</h2><Link href="/">Home</Link>{navigation.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}</div>
         <div className="footer-links"><h2>Capabilities</h2>{services.map((service) => <Link key={service.slug} href={`/services/#${service.slug}`}>{service.title}</Link>)}</div>

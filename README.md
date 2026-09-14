@@ -42,6 +42,6 @@ Once the production domain serves this deployment, the sitemap can be submitted 
 - `src/app/globals.css`: the new design tokens, components and responsive rules.
 - `DESIGN-SYSTEM.md`: visual guidelines for future additions.
 
-The contact form opens an email draft addressed to `hello@corevolvix.com`. The visitor reviews and sends it in their email application; this static site does not send mail from a server.
+The contact form opens an email draft addressed to `info@corevolvix.com`. The visitor reviews and sends it in their email application; this static site does not send mail from a server.
 
 The project uses JavaScript/JSX with its own dependencies, build output and ESLint configuration. It does not depend on files from C1 or a parent directory.

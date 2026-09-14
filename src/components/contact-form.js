@@ -21,7 +21,7 @@ export function ContactForm() {
     ].join("\n");
 
     setSubmitted(true);
-    window.location.href = `mailto:hello@corevolvix.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:info@corevolvix.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   }
 
   return (

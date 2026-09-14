@@ -25,5 +25,5 @@ Update the live C2 website's contact details and enquiry handling without changi
 
 - `D:/C2` is the clean standalone repository at `https://github.com/SongsBeats/C2.git`.
 - Next.js 16.3.4 currently exports a static site to `out/`.
-- The existing form opens a `mailto:hello@corevolvix.com` draft; there is no mail-sending backend.
+- The existing form opens a `mailto:info@corevolvix.com` draft; there is no mail-sending backend. The Contact page, footer and mobile navigation also use Info.
 - No mailbox/account deletion or extra licence purchase is needed for this website task.
