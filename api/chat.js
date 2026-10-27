@@ -2,7 +2,7 @@
 // This runs on Vercel even with static export enabled
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent';
+const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
 // Rate limiting: simple in-memory store (resets on cold starts)
 const requestCounts = new Map();
