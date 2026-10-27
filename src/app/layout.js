@@ -18,7 +18,16 @@ export const metadata = {
     template: "%s | Corevolvix",
   },
   description: "Corevolvix helps organisations improve processes, modernise technology, apply AI responsibly and build scalable enterprise architecture.",
-  icons: { icon: "/favicon.png", apple: "/favicon.png" },
+  icons: { 
+    icon: [
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" }
+    ], 
+    apple: "/apple-touch-icon.png",
+    other: [
+      { rel: "icon", url: "/favicon-512.png", sizes: "512x512", type: "image/png" }
+    ]
+  },
   openGraph: { title: "Corevolvix", description: "Smart Evolution for a Digital World", type: "website", locale: "en_GB" },
 };
 

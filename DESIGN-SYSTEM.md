@@ -8,20 +8,20 @@ Clear editorial hierarchy, generous but controlled spacing, quiet surfaces and c
 
 | Token | Value | Use |
 | --- | --- | --- |
-| `--blue` | `#1846f5` | Primary actions, highlighted words, icons |
-| `--blue-dark` | `#1037ce` | Primary hover state |
-| `--ink` | `#102339` | Body text and dark section backgrounds |
-| `--heading-color` | `#163568` | Navy headlines on light surfaces |
-| `--heading-accent` | `#1846f5` | Key heading phrases, service and card titles |
-| `--muted` | `#56677b` | Body copy and supporting text |
+| `--blue` | `#0280C6` | Primary actions, highlighted words, icons (bright blue, 'e' and 'evolvix') |
+| `--blue-dark` | `#0168a3` | Primary hover state |
+| `--ink` | `#0F1E4A` | Body text and dark section backgrounds (deep navy, replaces black) |
+| `--heading-color` | `#1F41AB` | Navy headlines on light surfaces (deep blue, 'c' and 'cor') |
+| `--heading-accent` | `#0280C6` | Key heading phrases, service and card titles (bright blue) |
+| `--muted` | `#737886` | Body copy and supporting text (slate) |
 | `--line` | `#dce3eb` | Dividers and borders |
 | `--surface` | `#f4f7fc` | Alternate sections and panels |
-| `--blue-pale` | `#eaf0ff` | Icon backgrounds |
+| `--blue-pale` | `#e8f4fa` | Icon backgrounds |
 
 ## Typography and spacing
 
 - Inter variable font throughout, loaded with `next/font/google` and self-hosted in the build. Browser font requests stay on the website's own domain; Arial and sans-serif are fallbacks.
-- Headings pair deep navy with cobalt emphasis. Card, service and process titles use cobalt. Dark sections use white headlines with light-blue accents (`#a8c0ff`); cobalt CTA panels keep white headlines for contrast.
+- Headings pair deep navy with bright blue emphasis. Card, service and process titles use bright blue. Dark sections use white headlines with light-blue accents (`#6db3e3`); deep blue CTA panels keep white headlines for contrast.
 - Use `.heading-accent` on a meaningful phrase without changing the heading text. Avoid whole-heading gradients or arbitrary accent colours.
 - Desktop homepage headline: up to 72px; page headings: up to 62px; section headings: 32–46px.
 - Main content maximum width: 1240px. Mobile content gutters: 20px.
@@ -39,7 +39,7 @@ Keep the supplied brand images intact. The transformation visual connects proces
 
 - Anime.js coordinates 680ms entrances with custom easing: 14px movement and 65ms stagger for hero copy; 20px and 85ms stagger for visible sibling cards. Each target reveals once per page visit, without splitting words or delaying form fields.
 - The transformation diagram pulses twice and completes one 4.8-second orbit, then settles. It only starts when the visual enters the viewport.
-- Cards and icons have cobalt hover/focus feedback. Service capability panels receive a soft blue sweep; the mobile menu has a short entrance and closes immediately.
+- Cards and icons have bright blue hover/focus feedback. Service capability panels receive a soft blue sweep; the mobile menu has a short entrance and closes immediately.
 - Content stays available without JavaScript. Animation styles and temporary GPU hints are cleared after completion and route changes. Keyboard focus finishes active entrances immediately.
 - `prefers-reduced-motion` disables animation and animated scrolling, including when the preference changes during a visit.
 - Navigation supports visible keyboard focus, current-page state, an accessible mobile toggle, Escape-to-close and a skip link.

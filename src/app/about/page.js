@@ -33,10 +33,10 @@ export default function AboutPage() {
         <div className="container about-intro">
           <div className="brand-panel" aria-hidden="true" data-reveal>
             <Image
-              src="/corevolvix-icon.png"
+              src="/logo-mark.png"
               alt=""
-              width={1254}
-              height={1254}
+              width={400}
+              height={400}
               sizes="(max-width: 760px) 80vw, 400px"
             />
           </div>

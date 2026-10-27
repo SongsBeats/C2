@@ -29,7 +29,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="container header-inner">
         <Link className="brand" href="/" aria-label="Corevolvix home" onClick={() => setOpen(false)}>
-          <Image src="/corevolvix-logo.jpeg" width={1600} height={533} priority alt="Corevolvix — Smart Evolution for a Digital World" />
+          <Image src="/logo-notagline.png" width={800} height={273} priority alt="Corevolvix — Smart Evolution for a Digital World" />
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
           {links.map(([label, href]) => <Link key={href} href={href} aria-current={active(href) ? "page" : undefined}>{label}</Link>)}

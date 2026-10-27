@@ -17,7 +17,7 @@ function TransformationVisual() {
         <div className="map-orbit map-orbit-outer" aria-hidden="true" />
         <div className="map-orbit map-orbit-inner" aria-hidden="true" />
         <div className="map-axis map-axis-x" aria-hidden="true" /><div className="map-axis map-axis-y" aria-hidden="true" />
-        <div className="map-core"><Image src="/corevolvix-icon.png" width={1254} height={1254} alt="Corevolvix" priority /></div>
+        <div className="map-core"><Image src="/logo-mark.png" width={400} height={400} alt="Corevolvix" priority /></div>
         <span className="map-label map-label-top"><Workflow size={19} />Process</span>
         <span className="map-label map-label-right"><Boxes size={19} />Technology</span>
         <span className="map-label map-label-bottom"><Sparkles size={19} />Intelligence</span>

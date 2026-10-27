@@ -8,7 +8,7 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <Link href="/" aria-label="Corevolvix home"><Image src="/corevolvix-logo.jpeg" alt="Corevolvix" width={1600} height={533} /></Link>
+          <Link href="/" aria-label="Corevolvix home"><Image src="/logo-notagline.png" alt="Corevolvix" width={800} height={273} /></Link>
           <p>Business transformation through process, technology, AI and architecture.</p>
           <a className="text-link" href="mailto:info@corevolvix.com">info@corevolvix.com <ArrowUpRight size={17} /></a>
         </div>
