@@ -2,8 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { X, Send, Loader2 } from "lucide-react";
-import Image from "next/image";
-import { ChatBubbleIcon } from "./chatbot-icons";
+import { RobotMascotIcon } from "./chatbot-icons";
 import "./chatbot.css";
 
 export function Chatbot() {
@@ -96,7 +95,7 @@ export function Chatbot() {
         aria-expanded={isOpen}
       >
         <div className="chatbot-button-icon">
-          {isOpen ? <X size={28} strokeWidth={2.5} /> : <ChatBubbleIcon size={32} />}
+          {isOpen ? <X size={28} strokeWidth={2.5} /> : <RobotMascotIcon size={48} />}
         </div>
       </button>
 
@@ -106,13 +105,7 @@ export function Chatbot() {
           <div className="chatbot-header">
             <div className="chatbot-header-content">
               <div className="chatbot-avatar">
-                <Image 
-                  src="/logo-mark.png" 
-                  width={40} 
-                  height={40} 
-                  alt="Corevolvix" 
-                  priority
-                />
+                <RobotMascotIcon size={36} />
               </div>
               <div>
                 <h3>Chat with Corevolvix</h3>
@@ -132,12 +125,7 @@ export function Chatbot() {
             {messages.length === 0 && (
               <div className="chatbot-welcome">
                 <div className="chatbot-welcome-avatar">
-                  <Image 
-                    src="/logo-mark.png" 
-                    width={48} 
-                    height={48} 
-                    alt="Corevolvix" 
-                  />
+                  <RobotMascotIcon size={56} />
                 </div>
                 <p>
                   Hello! I can help you learn about Corevolvix's services,
@@ -157,12 +145,7 @@ export function Chatbot() {
               >
                 {message.role === "assistant" && (
                   <div className="chatbot-message-avatar">
-                    <Image 
-                      src="/logo-mark.png" 
-                      width={28} 
-                      height={28} 
-                      alt="Corevolvix" 
-                    />
+                    <RobotMascotIcon size={28} />
                   </div>
                 )}
                 <div className="chatbot-message-content">{message.content}</div>
@@ -172,12 +155,7 @@ export function Chatbot() {
             {isLoading && (
               <div className="chatbot-message chatbot-message-assistant">
                 <div className="chatbot-message-avatar">
-                  <Image 
-                    src="/logo-mark.png" 
-                    width={28} 
-                    height={28} 
-                    alt="Corevolvix" 
-                  />
+                  <RobotMascotIcon size={28} />
                 </div>
                 <div className="chatbot-message-content chatbot-loading">
                   <Loader2 size={16} className="chatbot-spinner" />
