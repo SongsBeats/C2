@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { X, Send, Loader2 } from "lucide-react";
 import Image from "next/image";
-import { ChatAssistantIcon } from "./chatbot-icons";
+import { ChatBubbleIcon } from "./chatbot-icons";
 import "./chatbot.css";
 
 export function Chatbot() {
@@ -96,7 +96,7 @@ export function Chatbot() {
         aria-expanded={isOpen}
       >
         <div className="chatbot-button-icon">
-          {isOpen ? <X size={28} strokeWidth={2.5} /> : <ChatAssistantIcon size={32} />}
+          {isOpen ? <X size={28} strokeWidth={2.5} /> : <ChatBubbleIcon size={32} />}
         </div>
       </button>
 

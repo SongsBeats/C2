@@ -31,8 +31,8 @@ export function CorevolvixIcon({ size = 24, className = "" }) {
   );
 }
 
-// Alternative: Simple Chat Assistant Icon with Gradient
-export function ChatAssistantIcon({ size = 24, className = "" }) {
+// Clean, Minimal Chat Bubble Icon
+export function ChatBubbleIcon({ size = 24, className = "" }) {
   return (
     <svg
       width={size}
@@ -43,19 +43,12 @@ export function ChatAssistantIcon({ size = 24, className = "" }) {
       className={className}
       aria-hidden="true"
     >
-      <defs>
-        <linearGradient id="chat-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#1F41AB" />
-          <stop offset="100%" stopColor="#0280C6" />
-        </linearGradient>
-      </defs>
       <path
-        d="M12 2C6.48 2 2 6.48 2 12C2 13.93 2.6 15.71 3.61 17.18L2.09 21.91L6.82 20.39C8.29 21.4 10.07 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2Z"
-        fill="url(#chat-gradient)"
+        d="M12 2C6.48 2 2 6.03 2 11C2 13.39 3.01 15.55 4.64 17.15L3 21L7.27 19.49C8.76 20.13 10.34 20.5 12 20.5C17.52 20.5 22 16.47 22 11.5C22 6.03 17.52 2 12 2Z"
+        fill="white"
+        stroke="white"
+        strokeWidth="0.5"
       />
-      <circle cx="8" cy="12" r="1.5" fill="white" />
-      <circle cx="12" cy="12" r="1.5" fill="white" />
-      <circle cx="16" cy="12" r="1.5" fill="white" />
     </svg>
   );
 }
